@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import './App.css';
+import About from './About';
+import Skills from './Skills';
+import Project from './Project';
+import Contact from './Contact';
+import Header from './Header';
+import self from './images/self.jpg';
+import { BrowserRouter as Router } from 'react-router-dom';
+import toggleClassName from './ToggleFn'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='grid-container'>
+        <div className="menu-icon" onClick={() => toggleClassName('header', 'active')}>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+        </div>
+        <Header></Header>
+        <img id='image' src={self} alt={self}></img>
+        <About></About>
+        <Skills></Skills>
+        <Project></Project>
+        <Contact></Contact>
+
+      </div>
+
+    </Router>
   );
 }
+
+
 
 export default App;
