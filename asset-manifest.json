@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/NPortfolio/static/css/main.71550497.chunk.css",
+    "main.js": "/NPortfolio/static/js/main.bf8e29fc.chunk.js",
+    "main.js.map": "/NPortfolio/static/js/main.bf8e29fc.chunk.js.map",
+    "runtime~main.js": "/NPortfolio/static/js/runtime~main.f721a146.js",
+    "runtime~main.js.map": "/NPortfolio/static/js/runtime~main.f721a146.js.map",
+    "static/js/2.ee8ed330.chunk.js": "/NPortfolio/static/js/2.ee8ed330.chunk.js",
+    "static/js/2.ee8ed330.chunk.js.map": "/NPortfolio/static/js/2.ee8ed330.chunk.js.map",
+    "index.html": "/NPortfolio/index.html",
+    "precache-manifest.cac1b1ae6317a6d94f2fea25cdece54b.js": "/NPortfolio/precache-manifest.cac1b1ae6317a6d94f2fea25cdece54b.js",
+    "service-worker.js": "/NPortfolio/service-worker.js",
+    "static/css/main.71550497.chunk.css.map": "/NPortfolio/static/css/main.71550497.chunk.css.map",
+    "static/media/bootstrap.png": "/NPortfolio/static/media/bootstrap.87d99487.png",
+    "static/media/react.png": "/NPortfolio/static/media/react.8d859602.png",
+    "static/media/self.jpg": "/NPortfolio/static/media/self.e895e239.jpg",
+    "static/media/wordpress.png": "/NPortfolio/static/media/wordpress.6ded14c8.png"
+  }
+}
