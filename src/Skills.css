@@ -1,19 +1,26 @@
-.icon {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr; 
-    grid-gap: 0px 0px;
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0px;
+    margin: 0px;
 }
 
-.iconItem {
-    padding: 0px;
+.skillItem {
     background-color: white;
     border: 1px solid black;
-    justify-self: center;
+    margin: 5px;
+    padding: 5px; 
+    width: 30%;
 }
 
 h1 {
     padding: 0px;
     margin: 0px;
-    text-align: center;
+    /* text-align: center; */
+}
+
+img {
+    height: 60px;
+    width: 60px
 }
