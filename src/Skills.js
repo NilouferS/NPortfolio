@@ -7,6 +7,7 @@ import javascript from './images/javascript.png';
 import react from './images/react.png';
 import nodejs from './images/nodejs.png';
 import wordpress from './images/wordpress.png';
+import mongoDb from './images/mongodb.png';
 import'./Skills.css' ;
 
 export default function Skills() {
@@ -24,6 +25,7 @@ export default function Skills() {
                 <h1>Back End</h1>
                 <div className='skillItem'>
                     <img src={nodejs} alt='f'></img>
+                    <img src={mongoDb} alt='j'></img>
                 </div>
                 <h1>Others</h1>
                 <div className='skillItem'>

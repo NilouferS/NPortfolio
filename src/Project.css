@@ -1,0 +1,23 @@
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.projectItem {
+    width: 400px;
+    height: 450px;
+}
+
+.projectImg {
+    height: 300px;
+    width: 300px;
+}
+.projectLink {
+    font-size: 40px;
+    text-align: center;
+}
+.projectContainer:nth-of-type(2){
+    justify-items: center;
+}
