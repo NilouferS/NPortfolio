@@ -1,0 +1,23 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+  
+}
+ul.contain li.telephone {
+    list-style-image: url('images/telephone.svg');
+}
+    
+ul li.email {
+    list-style-image: url('images/email.svg');
+}
+    
+ul li.github {
+    list-style-image: url('images/githubC.svg');
+    }
+
+ul li.linkedin {
+    list-style-image: url('images/linkedin.svg');
+}
+
+
+

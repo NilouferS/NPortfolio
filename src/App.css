@@ -20,7 +20,7 @@ body {
   grid-template-columns: 1fr; /* Side nav is hidden on mobile */
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    'image'
+    'home'
     'about'
     'skills'
     'project'
@@ -56,98 +56,61 @@ body {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
     z-index: 2; /* Needs to sit above the hamburger menu icon */
     background: white;
-    
   }
   
   #header.active {
     transform: translateX(0);
   }
-  
-  .headerCloseIcon {
-    position: absolute;
-    visibility: visible;
-    top: 8px;
-    right: 12px;
-    cursor: pointer;
-    font-size: 20px;
-    color: #ddd;
-  }
-  
-  .headerList {
-    padding: 0;
-    margin-top: 85px;
-    list-style-type: none;
-    
-  }
-  
-  .headerListItem {
-    padding: 20px 20px 20px 40px;
-    color: #ddd;
-  }
-  
-  .headerListItem:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    cursor: pointer;
-  }
 
-  #image {
-    grid-area: image;
-    width: 100vw;
-    height: 50vh;
-  
+  #home {
+    grid-area: home;
+   
   }
 
   #about {
     grid-area: about;
-   
   }
   
   #skills {
     grid-area: skills;
-    
   }
   
   #project {
     grid-area: project;
-   
   }
   
   #contact {
     grid-area: contact;
-    
   }
   
   
   /* Non-mobile styles, 750px breakpoint */
-  @media only screen and (min-width: 46.875em) {
+@media only screen and (min-width: 46.875em) {
     /* Show the sidenav */
-    .grid-container {
-        grid-template-columns: 140px 1fr; /* Show the side nav for non-mobile screens */
-        grid-template-areas:
-        'header image'
-        'header about'
-        'header skills'
-        'header project'
-        'header contact';
-      }
-  
-  
-    #header {
-      position: fixed;
-      transform: translateX(0);
-    }
-  
-    #headerCloseIcon {
-      visibility: hidden;
-    }
+  .grid-container {
+    grid-template-columns: 140px 1fr; /* Show the side nav for non-mobile screens */
+    grid-template-areas:
+      'header home'
+      'header about'
+      'header skills'
+      'header project'
+      'header contact';
+  }
+  #header {
+    position: fixed;
+    transform: translateX(0);
   }
   
   .title {
-    background-color:  #008073;
-    color: white;
     text-align: start;
-    height: 60px;
-    padding: 5px;
-    
   }
+}
+  
+.title {
+  background-color:  #008073;
+  color: white;
+  text-align: center;
+  height: 60px;
+  padding: 5px;
+}
   
