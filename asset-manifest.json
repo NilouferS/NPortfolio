@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/NPortfolio/static/css/main.667cc655.chunk.css",
-    "main.js": "/NPortfolio/static/js/main.395c7b14.chunk.js",
-    "main.js.map": "/NPortfolio/static/js/main.395c7b14.chunk.js.map",
-    "runtime~main.js": "/NPortfolio/static/js/runtime~main.f721a146.js",
-    "runtime~main.js.map": "/NPortfolio/static/js/runtime~main.f721a146.js.map",
-    "static/js/2.b9a672d7.chunk.js": "/NPortfolio/static/js/2.b9a672d7.chunk.js",
-    "static/js/2.b9a672d7.chunk.js.map": "/NPortfolio/static/js/2.b9a672d7.chunk.js.map",
-    "index.html": "/NPortfolio/index.html",
-    "precache-manifest.d6090663d1d279d7c4bd0d60777aeec1.js": "/NPortfolio/precache-manifest.d6090663d1d279d7c4bd0d60777aeec1.js",
-    "service-worker.js": "/NPortfolio/service-worker.js",
-    "static/css/main.667cc655.chunk.css.map": "/NPortfolio/static/css/main.667cc655.chunk.css.map",
-    "static/media/kodflix.png": "/NPortfolio/static/media/kodflix.b637a09b.png",
-    "static/media/mongodb.png": "/NPortfolio/static/media/mongodb.df1d2359.png",
-    "static/media/react.png": "/NPortfolio/static/media/react.8d859602.png",
-    "static/media/self.jpg": "/NPortfolio/static/media/self.e895e239.jpg",
-    "static/media/wordpress.png": "/NPortfolio/static/media/wordpress.6ded14c8.png"
+    "main.css": "/Portfolio/static/css/main.1a8c09e5.chunk.css",
+    "main.js": "/Portfolio/static/js/main.f85ee80f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f85ee80f.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
+    "static/js/2.d8afe3c7.chunk.js": "/Portfolio/static/js/2.d8afe3c7.chunk.js",
+    "static/js/2.d8afe3c7.chunk.js.map": "/Portfolio/static/js/2.d8afe3c7.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.9690dbf1009db6e9225b031fc662ed6f.js": "/Portfolio/precache-manifest.9690dbf1009db6e9225b031fc662ed6f.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.1a8c09e5.chunk.css.map": "/Portfolio/static/css/main.1a8c09e5.chunk.css.map",
+    "static/media/Contact.css": "/Portfolio/static/media/telephone.059af074.svg",
+    "static/media/kodflix.png": "/Portfolio/static/media/kodflix.b637a09b.png",
+    "static/media/mongodb.png": "/Portfolio/static/media/mongodb.df1d2359.png",
+    "static/media/react.png": "/Portfolio/static/media/react.8d859602.png",
+    "static/media/Home.css": "/Portfolio/static/media/self.e895e239.jpg",
+    "static/media/wordpress.png": "/Portfolio/static/media/wordpress.6ded14c8.png"
   }
 }
