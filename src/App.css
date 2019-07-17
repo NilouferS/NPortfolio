@@ -45,8 +45,6 @@ body {
 
 #header {
     grid-area: header;
-    display: flex;
-    flex-direction: column;
     height: 100%;
     width: 140px;
     position: fixed;
@@ -54,21 +52,39 @@ body {
     transform: translateX(-245px);
     transition: all .6s ease-in-out;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
-    z-index: 2; /* Needs to sit above the hamburger menu icon */
+    z-index: 2; /*Needs to sit above the hamburger menu icon*/
     background: white;
   }
   
   #header.active {
     transform: translateX(0);
   }
+  .headerList {
+    padding: 0;
+    margin-top: 85px;
+    list-style-type: none;
+    
+  }
+  
+  .headerListItem {
+    padding: 20px 20px 20px 40px;
+    color: #ddd;
+  }
+  
+  .headerListItem:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+
 
   #home {
     grid-area: home;
-   
+  
   }
 
   #about {
     grid-area: about;
+   
   }
   
   #skills {
@@ -100,7 +116,7 @@ body {
     position: fixed;
     transform: translateX(0);
   }
-  
+ 
   .title {
     text-align: start;
   }

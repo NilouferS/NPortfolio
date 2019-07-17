@@ -1,6 +1,9 @@
-export default function Toggle(selector, className) {
-    console.log(selector);
+export function addClassName(selector, className) {
     const el = document.getElementById(selector)
-    console.log(el);
-        el.classList.toggle(className);
+    el.classList.add(className);
+}
+
+export function removeClassName(selector, className) {
+    const el = document.getElementById(selector)
+    el.classList.remove(className);
 }
