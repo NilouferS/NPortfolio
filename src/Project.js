@@ -7,15 +7,15 @@ export default function Project() {
             <h1 className='title'>PROJECTS</h1>
             <div className='projectContainer'>
                 <div className='projectItem' >
-                    <img className='projectImg' onClick ={() => window.open('https://kodflix-niloufer-shaikh.herokuapp.com/')} src={kodflix}/>
+                    <img className='projectImg' onClick ={() => window.open('https://kodflix-niloufer-shaikh.herokuapp.com/')} src={kodflix} alt='projecKodflix'/>
                     <a className='projectLink'href='https://github.com/NilouferS/kodflix'  target="_blank" >KODFLIX</a>
                 </div>
                 <div className='projectItem' onClick ={() => window.open('https://kodflix-niloufer-shaikh.herokuapp.com/') }>
-                    <img className='projectImg' src={kodflix}/>
+                    <img className='projectImg' src={kodflix} alt='projectCalculator'/>
                     <a href='https://github.com/NilouferS/kodflix'>Calculator</a>
                 </div>
                 <div className='projectItem' onClick ={() => window.open('https://kodflix-niloufer-shaikh.herokuapp.com/') }>
-                    <img className='projectImg' src={kodflix}/>
+                    <img className='projectImg' src={kodflix} alt='projectFlat'/>
                     <a href='https://github.com/NilouferS/kodflix'>FLAT PACK</a>
                 </div>
             </div>

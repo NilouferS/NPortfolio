@@ -2,10 +2,18 @@ import React from 'react';
 import { removeClassName } from './ToggleFn'
 import './Header.css';
 
-export default function Header() {
-    return (
-        <div id='header'>
-              
+export default class Header extends React.Component {
+    componentDidMount() {
+        window.addEventListener('resize', () => {
+            if(window.innerWidth > 750) {
+                let sideBar = document.getElementById('header');
+                sideBar.classList.remove('active');
+            }
+        });
+    }
+    render() {
+        return (
+         <div id='header'>
             <ul className="headerList" onClick={() => removeClassName('header', 'active')}>
                 <li className="headerListItem">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -40,9 +48,8 @@ export default function Header() {
                     <a href='#contact'>Contact</a>
                 </li>
             </ul>
-
         </div>
-    );
+    );}
 }
 
     

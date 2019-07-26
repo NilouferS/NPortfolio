@@ -7,22 +7,22 @@ import Project from './Project';
 import Contact from './Contact';
 import Header from './Header';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { addClassName } from './ToggleFn';
+import { toggleClassName } from './ToggleFn';
 
 function App() {
   return (
     <Router>
       <div className='grid-container'>
-        <div className="menu-icon" onClick={() => addClassName('header', 'active')}>
+
+        <Home></Home>
+        <About></About>
+        <Skills></Skills>
+        <Project></Project>
+        <Contact></Contact>
+        <Header></Header>
+        <div className="menu-icon" onClick={() => toggleClassName('header', 'active')}>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
         </div>
-          <Header></Header>
-          <Home></Home>
-          <About></About>
-          <Skills></Skills>
-          <Project></Project>
-          <Contact></Contact>
-
       </div>
 
     </Router>

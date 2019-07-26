@@ -6,8 +6,8 @@ export default function Home() {
         <div id='home'>
             <div class="containerHome">
                 <div class="animate item">
-                    <span>h</span><span>i</span><span>i</span><span></span>
-                    <span>N</span><span>I</span><span>L</span><span>O</span><span>U</span><span>F</span><span>E</span><span>R</span><span>n</span><span>s</span>
+                    <span>I</span><span></span><span>a</span><span>m</span><br/>
+                    <span>N</span><span>I</span><span>L</span><span>O</span><span>U</span><span>F</span><span>E</span><span>R</span><span>.</span><span>.</span>
                 </div>
             </div>
         </div>
