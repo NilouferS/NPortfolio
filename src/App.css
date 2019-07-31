@@ -5,15 +5,14 @@ body {
     font-family: 'Open Sans', Helvetica, sans-serif;
     box-sizing: border-box;
     background-color: #dfd9c8;
-    background-image:
+}
+    /* background-image: */
   /* repeating-linear-gradient(120deg, rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.801) 1px, transparent 1px, transparent 60px),
   repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.801) 1px, transparent 1px, transparent 60px), */
-    linear-gradient(60deg, rgba(214, 208, 208, 0.925) 25%, transparent 25%, transparent 75%,  rgba(214, 208, 208, 0.925) 75%,  rgba(214, 208, 208, 0.925)),
+    /* linear-gradient(60deg, rgba(214, 208, 208, 0.925) 25%, transparent 25%, transparent 75%,  rgba(214, 208, 208, 0.925) 75%,  rgba(214, 208, 208, 0.925)),
     linear-gradient(120deg, rgba(214, 208, 208, 0.925) 25%, transparent 25%, transparent 75%, rgba(214, 208, 208, 0.925) 75%, rgba(214, 208, 208, 0.925));
-    background-size: 70px 120px; 
-  
-  }
-  
+    background-size: 70px 120px;  */
+
   /* Assign grid instructions to our parent grid container, mobile-first (hide the sidenav) */
 .grid-container {
   display: grid;
@@ -127,7 +126,7 @@ body {
   background-color:  #008073;
   color: white;
   text-align: center;
-  height: 60px;
-  padding: 5px;
+  height: 50px;
+  padding-top: 25px;
 }
   

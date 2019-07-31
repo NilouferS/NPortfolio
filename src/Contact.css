@@ -1,8 +1,9 @@
 .contain {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+ 
     padding: 40px;
+    margin-left: 250px;
+    font-size: 20px;
+
 }
 
 /* 
@@ -11,18 +12,22 @@ li {
 } */
 ul.contain li.telephone {
     list-style-image: url('images/telephone.svg');
+    padding-bottom: 20px;
 }
     
 ul li.email {
     list-style-image: url('images/email.svg');
+    padding-bottom: 20px;
 }
     
 ul li.github {
     list-style-image: url('images/githubC.svg');
+    padding-bottom: 20px;
     }
 
 ul li.linkedin {
     list-style-image: url('images/linkedin.svg');
+    padding-bottom: 20px;
 }
 
 
