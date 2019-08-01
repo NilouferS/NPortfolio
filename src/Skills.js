@@ -7,7 +7,9 @@ import javascript from './images/javascript.png';
 import react from './images/react.png';
 import nodejs from './images/nodejs.png';
 import wordpress from './images/wordpress.png';
-import mongoDb from './images/mongodb.png';
+import mongoDb from './images/mongo.jpg';
+import net from './images/.net.png';
+import latex from './images/latex.png';
 import'./Skills.css' ;
 
 export default function Skills() {
@@ -26,11 +28,12 @@ export default function Skills() {
                 <div className='skillItem'>
                     <img src={nodejs} alt='f'></img>
                     <img src={mongoDb} alt='j'></img>
+                    <img src={net} alt='o'></img>
                 </div>
                 <h1>Others</h1>
                 <div className='skillItem'>
                     <img src={github} alt='g'></img>
-                    
+                    <img src={latex} alt='z'></img>
                     <img src={heroku} alt='h'></img>
                     <img src={wordpress} alt='i'></img>
                 </div>
