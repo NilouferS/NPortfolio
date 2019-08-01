@@ -132,3 +132,30 @@ body {
         opacity: 1;
     }
 }
+
+.containHome {
+    display: flex;
+    justify-content: flex-end;
+    opacity: 5;
+}
+
+ li.telephone {
+    list-style-image: url('images/telephone.svg');
+    padding-bottom: 20px;
+}
+    
+ li.email {
+    list-style-image: url('images/email.svg');
+    padding-bottom: 20px;
+}
+    
+ li.github {
+    list-style-image: url('images/githubC.svg');
+    padding-bottom: 20px;
+    }
+
+ li.linkedin {
+    list-style-image: url('images/linkedin.svg');
+    padding-bottom: 20px;
+}
+

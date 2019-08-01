@@ -6,26 +6,23 @@
 
 }
 
-/* 
-li {
-    display: inline-block;
-} */
+
 ul.contain li.telephone {
     list-style-image: url('images/telephone.svg');
     padding-bottom: 20px;
 }
     
-ul li.email {
+ul.contain li.email {
     list-style-image: url('images/email.svg');
     padding-bottom: 20px;
 }
     
-ul li.github {
+ul.conatin li.github {
     list-style-image: url('images/githubC.svg');
     padding-bottom: 20px;
     }
 
-ul li.linkedin {
+ul.conatin li.linkedin {
     list-style-image: url('images/linkedin.svg');
     padding-bottom: 20px;
 }
