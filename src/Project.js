@@ -38,13 +38,8 @@ export default function Project() {
                         title='Click to view'
                     />
                     <a  className='projectLink' href='https://github.com/NilouferS/kodflix'>IndiFoodStore</a>
-                    
                 </div>
-                
-                {/* <div className='projectItem'><a className='extra' href = 'https://github.com/NilouferS'>more..</a></div> */}
-            </div>
-            
-           
+            </div>   
         </div>
     );
 }
