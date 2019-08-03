@@ -23,8 +23,8 @@ export default function Project() {
                     <img 
                         className='projectImg' 
                         src={flat}  
-                        onClick ={() => window.open('https://flat-pack-forum.herokuapp.com/')}
                         alt='flat-pack'
+                        onClick ={() => window.open('https://flat-pack-forum.herokuapp.com/')}
                         title='click to view'
                     />
                     <a  className='projectLink' href='https://github.com/NilouferS/flat-pack-forum' target='_blank' rel="noopener noreferrer">FLAT-PACK</a>

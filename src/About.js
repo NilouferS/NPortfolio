@@ -13,7 +13,7 @@ export default function About() {
               focus on full stack software development. My approach to work is using agile methodology.</p>
                 <p>My current experience is working with technologies such as React, JavaScript ES6, HTML5, CSS3.</p><br/>
                 <p>I have a Bacheclor of Computer Engineering degree from Pune University, India (Compared as BA HONS by UK Naraic).
-                '''''''''''' These are skills I apply on a daily basis.</p><br/>
+                '''''''''These are skills I apply on a daily basis.</p><br/>
                 <p>I have a wide range of interests in learning new technology, meeting new people and
                 '''''''''many events'.</p><br/> <br/>
                 <p>

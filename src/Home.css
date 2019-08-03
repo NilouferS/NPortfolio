@@ -1,6 +1,7 @@
 .containerHome {
    font-weight: 900;
     text-align: center;
+   
     /* background image */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/self.jpg");
     background-size: cover;
@@ -11,32 +12,45 @@
 }
 
 .homeIconContainer {
-    margin: 3%;
+    margin:5% 5%;
     display: flex;
     justify-content: flex-end;
     opacity: 5;
 }
 
- li.telephone {
+li.telephone {
     list-style-image: url('images/telephone.svg');
-    padding-bottom: 20px;
 }
     
- li.email {
+li.email {
     list-style-image: url('images/email.svg');
-    padding-bottom: 20px;
 }
     
- li.github {
+li.github {
     list-style-image: url('images/githubC.svg');
-    padding-bottom: 20px;
-    }
+}
 
- li.linkedin {
+li.linkedin {
     list-style-image: url('images/linkedin.svg');
-    padding-bottom: 20px;
 }
 
 .iconHome {
     display: none;
+}
+
+.details {
+    text-align:center;
+    position: relative;
+    top: 40px;
+    padding-bottom: 10px;
+}
+.detailContent {
+    margin: 16px;
+
+}
+@media only screen and (min-width: 46.875em) {
+    .detailContent {
+        margin: 0px;
+    
+    }
 }

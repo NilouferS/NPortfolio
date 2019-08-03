@@ -29,4 +29,7 @@ p{
         padding-left: 1%;
         font-size: 24px;
     }
+    p {
+        font-size: 1em;
+    }
 }

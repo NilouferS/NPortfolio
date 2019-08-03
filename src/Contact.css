@@ -1,6 +1,6 @@
 .contain {
     margin:10%;
-    padding-left: 15%;
+    /* padding-left: 10%; */
     font-size: 15px;
     display: grid;
     justify-content: center;
@@ -30,6 +30,7 @@ ul.conatin li.linkedin {
     #contact .contain {
         margin: 5%; 
         font-size: 25px;
+        padding-left: 15%; 
     }
 }
 

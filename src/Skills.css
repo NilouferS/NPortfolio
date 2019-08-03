@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    margin: 2%;
+    margin-top: 5%;
 }
 
 .skillItem {
@@ -11,18 +11,28 @@
     border: 2% solid black;
     margin: 2%;
     padding: 1%; 
-    width: 45%;
+    width: 55%;
     display:flex;
     justify-content: space-between;
 
 }
 
-h1 {
+h2 {
     padding: 0px;
-    margin: 0px;
+    margin: 20px 0px 0px 0px;
 }
 
-img {
-    height: 60px;
+.skillIcon {
+    height: 40px;
     margin: 1%;
+}
+
+@media only screen and (min-width: 46.875em) {
+    .skillIcon{
+        height: 60px;
+        margin: 1%;
+    }
+    .skillItem {width: 45%;
+        padding: 1%;
+    }
 }
