@@ -1,5 +1,5 @@
 #projectContainer {
-    margin: 10% 0% 10% 0%;
+    margin: 10% 0% 0% 0%;
     display: grid;
 }
 
@@ -14,8 +14,8 @@ img {
 }
 
 .projectImg {
-    height: 80%;
-    width: 180px;
+    height: 50%;
+    width: 150px;
     border: solid black;
 }
 .projectLink {
