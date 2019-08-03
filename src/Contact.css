@@ -16,12 +16,12 @@ ul.contain li.email {
     padding-bottom: 20px;
 }
     
-ul.conatin li.github {
+ul.contain li.github {
     list-style-image: url('images/githubC.svg');
     padding-bottom: 20px;
 }
 
-ul.conatin li.linkedin {
+ul.contain li.linkedin {
     list-style-image: url('images/linkedin.svg');
     padding-bottom: 20px;
 }
