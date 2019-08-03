@@ -41,7 +41,7 @@ export default function Project() {
                     
                 </div>
                 
-                <div className='projectItem'><a className='extra' href = 'https://github.com/NilouferS'>more..</a></div>
+                {/* <div className='projectItem'><a className='extra' href = 'https://github.com/NilouferS'>more..</a></div> */}
             </div>
             
            

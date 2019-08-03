@@ -95,8 +95,18 @@ body {
   #contact {
     grid-area: contact;
   }
+  .title {
+    background-color:  #008073;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 30px;
+  }
   
-  
+  a {
+    color: #008073;
+  }
   /* Non-mobile styles, 750px breakpoint */
 @media only screen and (min-width: 46.875em) {
     /* Show the sidenav */
@@ -116,18 +126,12 @@ body {
   .menu-icon {
     display: none;
   }
- 
   .title {
-    text-align: start;
+    height: 55px;
+    padding-top: 15px;
+    font-size: 40px;
   }
+ 
 }
-  
-.title {
-  background-color:  #008073;
-  color: white;
-  text-align: center;
-  height: 60px;
-  padding-top: 20px;
-  font-size: 40px;
-}
+
   

@@ -1,11 +1,10 @@
 .contain {
- 
-    padding: 40px;
-    margin-left: 250px;
-    font-size: 20px;
-
+    margin:10%;
+    padding-left: 15%;
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
 }
-
 
 ul.contain li.telephone {
     list-style-image: url('images/telephone.svg');
@@ -20,12 +19,17 @@ ul.contain li.email {
 ul.conatin li.github {
     list-style-image: url('images/githubC.svg');
     padding-bottom: 20px;
-    }
+}
 
 ul.conatin li.linkedin {
     list-style-image: url('images/linkedin.svg');
     padding-bottom: 20px;
 }
 
-
+@media only screen and (min-width: 46.875em) {
+    #contact .contain {
+        margin: 5%; 
+        font-size: 25px;
+    }
+}
 

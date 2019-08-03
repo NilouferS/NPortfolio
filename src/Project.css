@@ -1,6 +1,8 @@
 #projectContainer {
     display: grid;
+    /* grid-template-columns: 1fr; */
     padding: 1% ; 
+
 }
 img {
     padding:0px ;
@@ -14,7 +16,8 @@ img {
 
 .projectImg {
     height: 65%;
-    width: 100%;
+    width: 50%;
+    border: solid black;
 }
 .projectLink {
     font-size: 20px;
