@@ -29,7 +29,7 @@ body {
 }
   
 .menu-icon {
-  position: fixed; /* Needs to stay visible for all mobile scrolling */
+  position: fixed; /*Needs to stay visible for all mobile scrolling */
   display: flex;
   top: 5px;
   left: 10px;
@@ -96,6 +96,7 @@ body {
     grid-area: contact;
   }
   .title {
+    margin: 0px;
     background-color:  #008073;
     color: white;
     text-align: center;

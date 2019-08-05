@@ -18,7 +18,7 @@ export default function About() {
                 '''''''''many events'.</p><br/> <br/>
                 <p>
                     <strong>Current Focus: </strong>
-                    <a href='https://reactjs.org/docs/hooks-intro.html'>React Hooks</a> 
+                    <a href='https://reactjs.org/docs/hooks-intro.html'>React Hooks </a>  &
                     <a href='https://university.mongodb.com/'> Mongo DB</a>
 
                 </p>

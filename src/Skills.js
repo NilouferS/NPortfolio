@@ -8,7 +8,7 @@ import react from './images/react.png';
 import nodejs from './images/nodejs.png';
 import wordpress from './images/wordpress.png';
 import mongoDb from './images/mongo.jpg';
-import net from './images/.net.png';
+import net from './images/net.png';
 import latex from './images/latex.png';
 import'./Skills.css' ;
 
