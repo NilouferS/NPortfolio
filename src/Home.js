@@ -14,7 +14,8 @@ export default function Home() {
                 </div>
                 <div className='details'>
                     <div className='name'>
-                        <Wave
+                        <Wave 
+                            id='ni'
                             text='NILOUFER SHAIKH'
                             // iterations= {4} 
                             effect="stretch"

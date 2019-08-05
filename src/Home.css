@@ -1,9 +1,8 @@
 .containerHome {
    font-weight: 900;
     text-align: center;
-   
     /* background image */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/self.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/self.jpg");
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -49,6 +48,10 @@ li.linkedin {
 @media only screen and (min-width: 46.875em) {
     .detailContent {
         margin: 0px;
-    
     }
+
+ .name {
+    font-size: 40px;
+    }
+  
 }
