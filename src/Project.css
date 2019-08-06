@@ -38,6 +38,13 @@ img {
     grid-row: 1 / 2;
 }  
 
+.extra {
+    text-align: right;
+    position : relative;
+    bottom: 100px;
+    right: 30px;
+}
+
  @media only screen and (min-width: 46.875em) {
      #projectContainer {
         margin: 2% 0% 2% 0%; 
@@ -50,4 +57,5 @@ img {
         width: 380px;
         border: solid black;
     }
+    
 }

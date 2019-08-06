@@ -17,7 +17,12 @@ export default function Project() {
                         onClick ={() => window.open('https://kodflix-niloufer-shaikh.herokuapp.com/')} 
                         title='click to view' 
                     />
-                    <a className='projectLink'href='https://github.com/NilouferS/kodflix'  target='_blank' rel="noopener noreferrer">KODFLIX</a>
+                    <a 
+                        className='projectLink'
+                        href='https://github.com/NilouferS/kodflix' 
+                        target='_blank' 
+                        rel="noopener noreferrer"
+                        title='Click to view code'>KODFLIX</a>
                 </div>
                 <div className='projectItem'>
                     <img 
@@ -27,7 +32,12 @@ export default function Project() {
                         onClick ={() => window.open('https://flat-pack-forum.herokuapp.com/')}
                         title='click to view'
                     />
-                    <a  className='projectLink' href='https://github.com/NilouferS/flat-pack-forum' target='_blank' rel="noopener noreferrer">FLAT-PACK</a>
+                    <a  
+                        className='projectLink' 
+                        href='https://github.com/NilouferS/flat-pack-forum' 
+                        target='_blank' 
+                        rel="noopener noreferrer"
+                        title='Click to view code'>FLAT-PACK</a>
                 </div>
                 <div className='projectItem'>
                     <img 
@@ -37,9 +47,19 @@ export default function Project() {
                         onClick ={() => window.open('http://indifoodstore.com') }
                         title='Click to view'
                     />
-                    <a  className='projectLink' href='https://github.com/NilouferS/kodflix'>IndiFoodStore</a>
+                    <a  
+                        className='projectLink'
+                        href='https://github.com/NilouferS'
+                        target='_blank' 
+                        rel='noopener noreferrer'>IndiFoodStore</a>
                 </div>
-            </div>   
+            </div>
+            <div className='extra'>
+                <a 
+                    href='https://github.com/NilouferS'
+                    target='_blank' 
+                    rel='noopener noreferrer'
+                    title='to view more project'>more...</a></div>   
         </div>
     );
 }
