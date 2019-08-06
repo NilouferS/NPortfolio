@@ -10,7 +10,7 @@ export default function Home() {
                     <li className='item telephone' onClick={() => window.open("tel:0759652551")} />
                     <li className='item email' onClick={() => window.open('mailto:niloufer.shaikh11@gmail.com')} />
                     <li className='item github' onClick={() => window.open('https://github.com/NilouferS')} />
-                    <li className='item linkedin' onClick={() => window.open('https://www.linkedin.com/in/niloufer-shaikh-476158a9/')} />
+                    <li className='item linkedin' onClick={() => window.open('https://www.linkedin.com/in/niloufershaikh/')} />
                 </div>
                 <div className='details'>
                     <div className='name'>

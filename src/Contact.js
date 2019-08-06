@@ -11,8 +11,8 @@ export default function Contact() {
                     <a href='mailto:niloufer.shaikh11@gmail.com'>niloufer.shaikh11@gmail.com </a></li>
                 <li className='item github' onClick={() => window.open('https://github.com/NilouferS')}>
                     <a href='https://github.com/NilouferS'>github.com/NilouferS </a></li>
-                <li className='item linkedin' onClick={() => window.open('https://www.linkedin.com/in/niloufer-shaikh-476158a9/')}>
-                    <a href='https://www.linkedin.com/in/niloufer-shaikh-476158a9/'>linkedin.com/in/niloufer-shaikh-476158a9/</a></li>
+                <li className='item linkedin' onClick={() => window.open('https://www.linkedin.com/in/niloufershaikh/')}>
+                    <a href='https://www.linkedin.com/in/niloufershaikh/'>linkedin.com/in/niloufer-shaikh-476158a9/</a></li>
             </ul>
         </div>
     );
