@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import kodflix from './images/kodflix.png';
+// import kodflix from './images/kodflix.png';
 import flat from './images/flat.png';
 import indi from './images/indi.png';
 
@@ -12,7 +12,7 @@ export default function Project() {
                 <div className='projectItem' >
                     <img 
                         className='projectImg'  
-                        src={kodflix}
+                        src={require('./images/kodflix.png')}
                         alt='kodflix' 
                         onClick ={() => window.open('https://kodflix-niloufer-shaikh.herokuapp.com/')} 
                         title='click to view' 
